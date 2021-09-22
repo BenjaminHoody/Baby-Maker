@@ -5,11 +5,13 @@ public class BabyMaker
 
 		public static void main(String[] args)
 			{
-				Baby myB1 = new Baby("Jeff", 10.7, true);
+				Baby myBaby = new Baby("Jeff", 10.7, true);
 				
-				System.out.println("The first baby is " + myB1.getWeight() + " pounds!");
+				System.out.println("The first baby is " + myBaby.getWeight() + " pounds!");
 				
-				myB1.cry();
+				myBaby.setName("Max");
+				
+				myBaby.cry();
 
 			}
 
