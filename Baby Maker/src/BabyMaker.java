@@ -7,7 +7,7 @@ public class BabyMaker
 			{
 				Baby myB1 = new Baby("Jeff", 10.7, true);
 				
-				System.out.println("The first baby is " + myB1.weight + " pounds!");
+				System.out.println("The first baby is " + myB1.getWeight() + " pounds!");
 				
 				myB1.cry();
 
